@@ -22,7 +22,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nome')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'cnpj')->textInput(['maxlength' => true, 'minlength' => 11, 'pattern' => '^[1-9]*$']) ?>
+    <?= $form->field($model, 'cnpj')->textInput(['maxlength' => true, 'minlength' => 15, 'pattern' => '^[1-9]*$']) ?>
 
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
 

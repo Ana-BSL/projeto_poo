@@ -2,11 +2,16 @@
 
 namespace app\modules\retalhino\controllers;
 
+use app\modules\retalhino\dao\LoginStatusDAO;
 use app\modules\retalhino\models\Empresa;
+use app\modules\retalhino\models\Cliente;
+use app\modules\retalhino\models\Entregador;
 use app\modules\retalhino\search\EmpresaSearch;
+use Yii;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+
 
 /**
  * EmpresaController implements the CRUD actions for Empresa model.
@@ -68,9 +73,14 @@ class EmpresaController extends Controller
     public function actionCreate()
     {
         $model = new Empresa();
+        $cliente = new Cliente(); // Crie uma instância válida de Cliente
+        $entregador = new Entregador(); // Crie uma instância válida de Entregador
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
+
+                LoginStatusDAO::saveData( $model);
+
                 return $this->redirect(['view', 'id_empresa' => $model->id_empresa]);
             }
         } else {
@@ -81,6 +91,7 @@ class EmpresaController extends Controller
             'model' => $model,
         ]);
     }
+
 
     /**
      * Updates an existing Empresa model.

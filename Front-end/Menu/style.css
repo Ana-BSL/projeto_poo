@@ -1,0 +1,607 @@
+.frame-4,
+.frame-4 * {
+  box-sizing: border-box;
+}
+.frame-4 {
+  width: 430px;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-5 {
+  background: #ffffff;
+  width: 430px;
+  height: 932px;
+  position: absolute;
+  left: 0px;
+  top: -50px;
+}
+.rectangle-35 {
+  background: #d9d9d9;
+  width: 430px;
+  height: 41px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.image-1 {
+  border-radius: 10px;
+  width: 389px;
+  height: 187px;
+  position: absolute;
+  left: 23px;
+  top: 139px;
+}
+.frame-5 {
+  width: 405px;
+  height: 84px;
+  position: absolute;
+  left: 23px;
+  top: 348px;
+  overflow: hidden;
+}
+.moletom {
+  border-radius: 0px;
+  position: absolute;
+  left: 3px;
+  top: 16px;
+  overflow: visible;
+}
+.moletom2 {
+  color: #c92d17;
+  text-align: center;
+  font: 800 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 28px;
+  width: 56px;
+  height: 16px;
+}
+.malha {
+  border-radius: 0px;
+  position: absolute;
+  left: 99px;
+  top: 16px;
+  overflow: visible;
+}
+.malha2 {
+  color: #c10000;
+  text-align: center;
+  font: 800 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 111px;
+  top: 28px;
+  width: 38px;
+  height: 15px;
+}
+.jeans {
+  background: #ffd162;
+  border-radius: 25px;
+  width: 63px;
+  height: 40px;
+  position: absolute;
+  left: 184px;
+  top: 16px;
+}
+.jeans2 {
+  color: #c10000;
+  text-align: center;
+  font: 800 12px "Roboto", sans-serif;
+  position: absolute;
+  left: 196px;
+  top: 28px;
+  width: 38px;
+  height: 15px;
+}
+.viscose {
+  background: #ffd162;
+  border-radius: 25px;
+  width: 74px;
+  height: 40px;
+  position: absolute;
+  left: 269px;
+  top: 16px;
+}
+.viscose2 {
+  color: #c10000;
+  text-align: center;
+  font: 800 12px "Roboto", sans-serif;
+  position: absolute;
+  left: 272px;
+  top: 28px;
+  width: 68px;
+  height: 15px;
+}
+.poliamida {
+  background: #ffd162;
+  border-radius: 25px;
+  width: 74px;
+  height: 40px;
+  position: absolute;
+  left: 359px;
+  top: 16px;
+}
+.poliamida2 {
+  color: #c10000;
+  text-align: center;
+  font: 800 12px "Roboto", sans-serif;
+  position: absolute;
+  left: 369px;
+  top: 28px;
+}
+.barra-inferior {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-3 {
+  background: #ffffff;
+  width: 430px;
+  height: 94px;
+  position: absolute;
+  left: 0px;
+  top: 838px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.perfil {
+  width: 40.14px;
+  height: 54px;
+  position: static;
+}
+.user-icon-1 {
+  width: 40.14px;
+  height: 39px;
+  position: absolute;
+  left: 369.86px;
+  top: 858px;
+}
+.perfil2 {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 373.98px;
+  top: 897px;
+  width: 32.94px;
+}
+.pedidos {
+  width: 49.4px;
+  height: 54px;
+  position: static;
+}
+.pedidos-icon-1 {
+  width: 40.14px;
+  height: 39px;
+  position: absolute;
+  left: 250.47px;
+  top: 858px;
+}
+.pedidos2 {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 246.35px;
+  top: 897px;
+  width: 49.4px;
+}
+.busca {
+  width: 57.64px;
+  height: 54px;
+  position: static;
+}
+.search-icon {
+  width: 40.14px;
+  height: 39px;
+  position: absolute;
+  left: 133.13px;
+  top: 858px;
+}
+.busca2 {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 125.93px;
+  top: 897px;
+  width: 57.64px;
+}
+.in-cio {
+  width: 40.14px;
+  height: 54px;
+  position: static;
+}
+.in-cio2 {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 26.09px;
+  top: 897px;
+  width: 33.97px;
+}
+.home-icon-icons-1 {
+  width: 40.14px;
+  height: 39px;
+  position: absolute;
+  left: 23px;
+  top: 858px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 36px;
+  height: 2px;
+  position: absolute;
+  left: 25px;
+  top: 855px;
+}
+.ltimas-lojas {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 26px;
+  top: 437px;
+  width: 137px;
+  height: 29px;
+}
+.ltimas-lojas2 {
+  width: 412px;
+  height: 115px;
+  position: absolute;
+  left: 13px;
+  top: 471px;
+  overflow-x: auto;
+}
+.o-rei-dos-retalhos {
+  position: absolute;
+  inset: 0;
+}
+.ateliedasonia {
+  background: #fbbc05;
+  border-radius: 5px 5px 7px 7px;
+  width: 143px;
+  height: 87px;
+  position: absolute;
+  left: 340px;
+  top: 5px;
+}
+.oreidosretalhos {
+  border-radius: 10px;
+  width: 120px;
+  height: 87px;
+  position: absolute;
+  left: 353px;
+  top: 0px;
+}
+.o-rei-dos-retalhos2 {
+  color: #c10000;
+  text-align: center;
+  font: 700 14px "Roboto", sans-serif;
+  position: absolute;
+  left: 340px;
+  top: 97px;
+  width: 143px;
+  height: 18px;
+}
+.alexandre-modas {
+  position: absolute;
+  inset: 0;
+}
+.alexandremodas {
+  background: #fbbc05;
+  border-radius: 5px 5px 7px 7px;
+  width: 143px;
+  height: 87px;
+  position: absolute;
+  left: 170px;
+  top: 5px;
+}
+.ateliedasonia-foto {
+  border-radius: 10px;
+  width: 120px;
+  height: 87px;
+  position: absolute;
+  left: 183px;
+  top: 0px;
+}
+.alexandre-modas2 {
+  color: #c10000;
+  text-align: center;
+  font: 700 14px "Roboto", sans-serif;
+  position: absolute;
+  left: 170px;
+  top: 97px;
+  width: 143px;
+  height: 18px;
+}
+.ateli-da-s-nia {
+  position: absolute;
+  inset: 0;
+}
+.ateliedasonia2 {
+  background: #fbbc05;
+  border-radius: 5px 5px 7px 7px;
+  width: 143px;
+  height: 87px;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+}
+.ateliedasonia-foto2 {
+  border-radius: 10px;
+  width: 120px;
+  height: 87px;
+  position: absolute;
+  left: 13px;
+  top: 0px;
+}
+.ateli-da-s-nia2 {
+  color: #c10000;
+  text-align: center;
+  font: 700 14px "Roboto", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 97px;
+  width: 143px;
+  height: 18px;
+}
+._64673-1 {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 78px;
+  top: 41px;
+}
+.ellipse-13 {
+  position: absolute;
+  left: 215px;
+  top: 318px;
+  transform: translate(0px, -8px);
+  overflow: visible;
+}
+.ellipse-14 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 227px;
+  top: 310px;
+}
+.ellipse-15 {
+  background: #fff79e;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 201px;
+  top: 310px;
+}
+.produtos-em-destaque {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 26px;
+  top: 603px;
+  width: 224px;
+  height: 29px;
+}
+.barra-de-pesquisa {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-36 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.ellipse-16 {
+  background: #ffd162;
+  border-radius: 50%;
+  width: 430px;
+  height: 57px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+}
+.rectangle-6 {
+  background: #fffeed;
+  border-radius: 20px;
+  width: 279px;
+  height: 36px;
+  position: absolute;
+  left: 81px;
+  top: 63px;
+}
+._5-c-8-f-453-f-712-deaccf-64-d-803-b-6578-abd-6-escola-de-icones-lisos-de-lupa-1 {
+  width: 30px;
+  height: 31px;
+  position: absolute;
+  left: 90px;
+  top: 66px;
+}
+.retalhino-logo-2 {
+  width: 50px;
+  height: 47px;
+  position: absolute;
+  left: 26px;
+  top: 43px;
+}
+.encontre-o-que-procura-aqui {
+  color: rgba(205, 173, 46, 0.59);
+  text-align: left;
+  font: 800 14px/25px "Roboto", sans-serif;
+  position: absolute;
+  left: 122px;
+  top: 66px;
+  width: 212px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.conhe-a-os-tipos-de-tecidos-e-suas-utilidades {
+  color: #ffffff;
+  text-align: left;
+  font: 700 16px "Roboto", sans-serif;
+  position: absolute;
+  left: 31px;
+  top: 267px;
+  width: 334px;
+}
+.barra-de-notifica-es {
+  position: absolute;
+  inset: 0;
+}
+.wifi-300-x-300-1 {
+  width: 20px;
+  height: 17px;
+  position: absolute;
+  left: 349px;
+  top: 16px;
+}
+._39934-1 {
+  width: 24px;
+  height: 17px;
+  position: absolute;
+  left: 316px;
+  top: 16px;
+}
+.low-battery-5-474981-1 {
+  width: 32px;
+  height: 17px;
+  position: absolute;
+  left: 377px;
+  top: 16px;
+}
+._9-41 {
+  color: #000000;
+  text-align: center;
+  font: 700 14px "Roboto", sans-serif;
+  position: absolute;
+  left: 21px;
+  top: 16px;
+  width: 36px;
+  height: 17px;
+}
+.frame-6 {
+  width: 379px;
+  height: 199px;
+  position: absolute;
+  left: 26px;
+  top: 632px;
+  overflow-y: auto;
+}
+.produto-4 {
+  position: absolute;
+  inset: 0;
+}
+.group-4 {
+  width: 279.39px;
+  height: 78px;
+  position: static;
+}
+.group-5 {
+  width: 279.39px;
+  height: 78px;
+  position: static;
+}
+.produto-1 {
+  background: #c10000;
+  border-radius: 10px;
+  width: 279.39px;
+  height: 78px;
+  position: absolute;
+  left: 98px;
+  top: 285px;
+}
+.image-17 {
+  border-radius: 10px;
+  width: 109px;
+  height: 88px;
+  position: absolute;
+  left: -2px;
+  top: 280px;
+}
+.produto-3 {
+  position: absolute;
+  inset: 0;
+}
+.group-3 {
+  width: 377.39px;
+  height: 90px;
+  position: static;
+}
+.produto-12 {
+  background: #c10000;
+  border-radius: 10px;
+  width: 279.39px;
+  height: 81px;
+  position: absolute;
+  left: 98px;
+  top: 190px;
+}
+.image-16 {
+  border-radius: 10px;
+  width: 107px;
+  height: 90px;
+  position: absolute;
+  left: 0px;
+  top: 185px;
+}
+.produto-2 {
+  position: absolute;
+  inset: 0;
+}
+.group-2 {
+  width: 377.39px;
+  height: 88px;
+  position: static;
+}
+.produto-13 {
+  background: #c10000;
+  border-radius: 10px;
+  width: 279.39px;
+  height: 81px;
+  position: absolute;
+  left: 98px;
+  top: 96px;
+}
+.image-15 {
+  border-radius: 10px;
+  width: 104px;
+  height: 88px;
+  position: absolute;
+  left: 0px;
+  top: 93px;
+}
+.produto-14 {
+  position: absolute;
+  inset: 0;
+}
+.group-1 {
+  width: 379.39px;
+  height: 88px;
+  position: static;
+}
+.produto-15 {
+  background: #c10000;
+  border-radius: 10px;
+  width: 279.39px;
+  height: 81px;
+  position: absolute;
+  left: 100px;
+  top: 3px;
+}
+.produto-16 {
+  border-radius: 10px;
+  width: 104.64px;
+  height: 88px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}

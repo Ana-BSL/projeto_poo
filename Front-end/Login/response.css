@@ -1,0 +1,40 @@
+/* Estilos para dispositivos de tela grande (PCs) */
+@media screen and (min-width: 1024px) {
+    /* Adicione seus estilos para PCs aqui */
+    body {
+      font-size: 16px;
+      background-color: #f0f0f0;
+    }
+    .container {
+      width: 960px;
+      margin: 0 auto;
+    }
+    /* Outros estilos para PCs */
+  }
+  
+  /* Estilos para tablets e dispositivos de tela média */
+  @media screen and (max-width: 1023px) {
+    /* Adicione seus estilos para tablets aqui */
+    body {
+      font-size: 14px;
+    }
+    .container {
+      width: 100%;
+      padding: 20px;
+    }
+    /* Outros estilos para tablets */
+  }
+  
+  /* Estilos para dispositivos de tela pequena (celulares) */
+  @media screen and (max-width: 767px) {
+    /* Adicione seus estilos para celulares aqui */
+    body {
+      font-size: 12px;
+    }
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+    /* Outros estilos para celulares */
+  }
+  

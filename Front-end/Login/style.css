@@ -1,0 +1,121 @@
+.frame-1,
+.frame-1 * {
+  box-sizing: border-box;
+}
+.frame-1 {
+  width: 430px;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.tela-1 {
+  width: 430px;
+  height: 929.84px;
+  position: absolute;
+  left: 0px;
+  top: -3px;
+}
+.retalhino-name-1 {
+  width: 346px;
+  height: 136px;
+  position: absolute;
+  left: 39px;
+  top: 110px;
+}
+.box-login {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 350px;
+  height: 57px;
+  position: absolute;
+  left: 39px;
+  top: 642px;
+}
+.ret-ngulo-login {
+  background: #c10000;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #c10000;
+  border-width: 3px;
+  width: 350px;
+  height: 57px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.login {
+  color: #ffffff;
+  text-align: center;
+  font: 700 20px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 1.67px;
+  top: 0px;
+  width: 346.67px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-criar-conta {
+  background: #c92c17;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 345px;
+  height: 57px;
+  position: absolute;
+  left: 41px;
+  top: 723px;
+}
+.ret-ngulo-login2 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+  width: 345px;
+  height: 57px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.criar-conta {
+  color: #c10000;
+  text-align: center;
+  font: 700 20px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 1.64px;
+  top: 0px;
+  width: 341.71px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.personagem-removebg-1 {
+  width: 161px;
+  height: 209px;
+  position: absolute;
+  left: 283px;
+  top: 449px;
+}
+.bem-vindo-a {
+  color: #c10000;
+  text-align: left;
+  font: 700 30px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 124px;
+  top: 327px;
+  width: 185px;
+}
+.um-app-100-regional-do-agreste-de-pernambuco-compra-e-venda-de-retalhos-t-xteis-aqui-chegue-mais {
+  color: #000000;
+  text-align: center;
+  font: 700 20px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 44px;
+  top: 391px;
+  width: 355px;
+  height: 141px;
+}

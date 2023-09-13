@@ -1,0 +1,192 @@
+.frame-3,
+.frame-3 * {
+  box-sizing: border-box;
+}
+.frame-3 {
+  width: 430px;
+  height: 932px;
+  position: relative;
+}
+.tela-7 {
+  width: 430px;
+  height: 929.84px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-transparente {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 348px;
+  height: 557px;
+  position: absolute;
+  left: 41px;
+  top: 271px;
+}
+.crie-sua-conta {
+  color: #c10000;
+  text-align: left;
+  font: 700 30px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 122px;
+  top: 300px;
+}
+.login-google {
+  width: 61px;
+  height: 60px;
+  position: absolute;
+  left: 184px;
+  top: 361px;
+}
+.ellipse-1 {
+  background: #ffffff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #c10000;
+  border-width: 2px;
+  width: 61px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.icon-google {
+  position: absolute;
+  left: 10.84px;
+  top: 10px;
+  overflow: visible;
+}
+.ou {
+  color: #c10000;
+  text-align: center;
+  font: 700 14px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 110px;
+  top: 421px;
+  width: 208px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email-login {
+  width: 208px;
+  height: 57px;
+  position: absolute;
+  left: 110px;
+  top: 472px;
+}
+.ret-ngulo-email {
+  border-radius: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.email {
+  color: #c10000;
+  text-align: left;
+  font: 400 16px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 0px;
+  width: 195px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.senha-login {
+  width: 208px;
+  height: 57px;
+  position: absolute;
+  left: 110px;
+  top: 550px;
+}
+.ret-ngulo-senha {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #c10000;
+  border-width: 3px;
+  width: 208px;
+  height: 57px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.senha {
+  color: #c10000;
+  text-align: left;
+  font: 400 16px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 11px;
+  top: 0px;
+  width: 195px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.confirmar-senha {
+  width: 208px;
+  height: 57px;
+  position: absolute;
+  left: 111px;
+  top: 628px;
+}
+.confirmar-senha2 {
+  color: #c10000;
+  text-align: left;
+  font: 400 16px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 11px;
+  top: 0px;
+  width: 195px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.box-criar-conta {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 152px;
+  height: 57px;
+  position: absolute;
+  left: 129px;
+  top: 736px;
+}
+.ret-ngulo-login {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+  width: 152px;
+  height: 57px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.criar-conta {
+  color: #c10000;
+  text-align: center;
+  font: 700 20px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 0.72px;
+  top: 0px;
+  width: 150.55px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.retalhino-name-1 {
+  width: 346px;
+  height: 136px;
+  position: absolute;
+  left: 39px;
+  top: 110px;
+}

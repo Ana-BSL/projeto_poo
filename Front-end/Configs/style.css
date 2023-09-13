@@ -1,0 +1,465 @@
+.frame-5,
+.frame-5 * {
+  box-sizing: border-box;
+}
+.frame-5 {
+  background: #ffffff;
+  padding: 10px;
+  width: 430px;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-32 {
+  position: absolute;
+  left: -8px;
+  top: 60px;
+  overflow: visible;
+}
+.rectangle-33 {
+  border-radius: 0px;
+  position: absolute;
+  left: 1px;
+  top: 190px;
+  transform: translate(-1px, 0px);
+  overflow: visible;
+}
+.Raphaell {
+  color: #000000;
+  text-align: left;
+  font: 400 22px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 114px;
+  top: 102px;
+  width: 136px;
+  height: 25px;
+}
+.ellipse-12 {
+  background: #d00303;
+  border-radius: 50%;
+  width: 79px;
+  height: 79px;
+  position: absolute;
+  left: 17px;
+  top: 74px;
+}
+.vector-1 {
+  border-radius: 0px;
+  position: absolute;
+  left: 59px;
+  top: 99px;
+  overflow: visible;
+}
+.vector-2 {
+  border-radius: 0px;
+  position: absolute;
+  left: 75px;
+  top: 99px;
+  overflow: visible;
+}
+.vector-3 {
+  border-radius: 0px;
+  position: absolute;
+  left: 59px;
+  top: 120px;
+  overflow: visible;
+}
+.image-9 {
+  width: 36px;
+  height: 38px;
+  position: absolute;
+  left: 39px;
+  top: 199px;
+}
+.ganhe-r-5-indicando-o-retalhino {
+  color: #c10000;
+  text-align: left;
+  font: 700 14px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 90px;
+  top: 207px;
+  width: 304px;
+  height: 29px;
+}
+.convide-seus-amigos {
+  color: #515151;
+  text-align: left;
+  font: 400 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 90px;
+  top: 225px;
+  width: 152px;
+  height: 29px;
+}
+.vector-6 {
+  border-radius: 0px;
+  position: absolute;
+  left: 382px;
+  top: 352px;
+  overflow: visible;
+}
+.notifica-es {
+  position: absolute;
+  inset: 0;
+}
+.notifica-es2 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 331px;
+  width: 304px;
+  height: 29px;
+}
+.minha-central-de-notifica-es {
+  color: #515151;
+  text-align: left;
+  font: 400 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 352px;
+  width: 187px;
+  height: 29px;
+}
+.image-10 {
+  width: 28.45px;
+  height: 30px;
+  position: absolute;
+  left: 23px;
+  top: 333px;
+}
+.sair {
+  position: absolute;
+  inset: 0;
+}
+.sair2 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 73px;
+  top: 650px;
+}
+.sair-da-sua-conta {
+  color: #515151;
+  text-align: left;
+  font: 400 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 73px;
+  top: 669px;
+  width: 187px;
+  height: 29px;
+}
+._1828427-1 {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 22px;
+  top: 650px;
+}
+.barra-inferior {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-3 {
+  background: #ffffff;
+  width: 430px;
+  height: 94px;
+  position: absolute;
+  left: 0px;
+  top: 838px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.perfil {
+  width: 40.14px;
+  height: 54px;
+  position: static;
+}
+.user-icon-1 {
+  width: 40.14px;
+  height: 39px;
+  position: absolute;
+  left: 369.86px;
+  top: 858px;
+}
+.perfil2 {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 373.98px;
+  top: 897px;
+  width: 32.94px;
+}
+.pedidos {
+  width: 49.4px;
+  height: 54px;
+  position: static;
+}
+.pedidos-icon-1 {
+  width: 40.14px;
+  height: 39px;
+  position: absolute;
+  left: 250.47px;
+  top: 858px;
+}
+.pedidos2 {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 246.35px;
+  top: 897px;
+  width: 49.4px;
+}
+.busca {
+  width: 57.64px;
+  height: 54px;
+  position: static;
+}
+.search-icon {
+  width: 40.14px;
+  height: 39px;
+  position: absolute;
+  left: 133.13px;
+  top: 858px;
+}
+.busca2 {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 125.93px;
+  top: 897px;
+  width: 57.64px;
+}
+.in-cio {
+  width: 40.14px;
+  height: 54px;
+  position: static;
+}
+.in-cio2 {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 26.09px;
+  top: 897px;
+  width: 33.97px;
+}
+.home-icon-icons-1 {
+  width: 40.14px;
+  height: 39px;
+  position: absolute;
+  left: 23px;
+  top: 858px;
+}
+.chats {
+  position: absolute;
+  inset: 0;
+}
+.chats2 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 80px;
+  top: 270px;
+  width: 304px;
+  height: 29px;
+}
+.minhas-conversas {
+  color: #515151;
+  text-align: left;
+  font: 400 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 80px;
+  top: 294px;
+  width: 152px;
+  height: 29px;
+}
+.chat-1 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 25px;
+  top: 276px;
+}
+.cupons {
+  position: absolute;
+  inset: 0;
+}
+.cupons2 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 460px;
+  width: 304px;
+  height: 29px;
+}
+.meus-cupons-de-desconto {
+  color: #515151;
+  text-align: left;
+  font: 400 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 481px;
+  width: 187px;
+  height: 29px;
+}
+.coupon-1 {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 24px;
+  top: 460px;
+}
+.carteira {
+  position: absolute;
+  inset: 0;
+}
+.carteira2 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 396px;
+  width: 304px;
+  height: 29px;
+}
+.meus-saldos-e-cart-es {
+  color: #515151;
+  text-align: left;
+  font: 400 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 417px;
+  width: 187px;
+  height: 29px;
+}
+.image-13 {
+  width: 6px;
+  height: 5px;
+  position: absolute;
+  left: 42px;
+  top: 416px;
+}
+.wallet-1 {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 24px;
+  top: 396px;
+}
+.endere-os {
+  position: absolute;
+  inset: 0;
+}
+.endere-os2 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 71px;
+  top: 520px;
+  width: 304px;
+  height: 29px;
+}
+.meus-endere-os-de-entrega {
+  color: #515151;
+  text-align: left;
+  font: 400 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 71px;
+  top: 544px;
+  width: 187px;
+  height: 29px;
+}
+.location-1 {
+  width: 30.3px;
+  height: 36px;
+  position: absolute;
+  left: 22px;
+  top: 523px;
+}
+.meus-dados {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 70px;
+  top: 587px;
+  width: 304px;
+  height: 29px;
+}
+.minhas-informa-es-de-conta {
+  color: #515151;
+  text-align: left;
+  font: 400 13px "Roboto", sans-serif;
+  position: absolute;
+  left: 70px;
+  top: 608px;
+  width: 187px;
+  height: 29px;
+}
+.edit-1 {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 22px;
+  top: 587px;
+}
+.configura-es {
+  position: absolute;
+  inset: 0;
+}
+.configura-es2 {
+  color: #c10000;
+  text-align: left;
+  font: 700 16px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 68px;
+  top: 777px;
+}
+.setting-1 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 22px;
+  top: 772px;
+}
+.ajuda {
+  position: absolute;
+  inset: 0;
+}
+.ajuda2 {
+  color: #c10000;
+  text-align: left;
+  font: 700 16px "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 70px;
+  top: 729px;
+}
+.question-1 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 22px;
+  top: 724px;
+}
+.line-2 {
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 1px 0 0 0;
+  width: 434px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 708.47px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}

@@ -3,6 +3,7 @@
 namespace app\modules\retalhino\models;
 
 use Yii;
+use yii\helpers\ArrayHelper;
 
 /**
  * This is the model class for table "entregador".
@@ -96,5 +97,11 @@ class Entregador extends \yii\db\ActiveRecord
     public function getLoginStatuses()
     {
         return $this->hasMany(LoginStatus::class, ['id_entregador' => 'id_entregador']);
+    }
+
+    public static function getNome(){
+        $droptions = Entregador::find()->orderBy('nome')->all();
+        $array = ArrayHelper::map($droptions, 'id_entregador', 'nome');
+        return $array;
     }
 }

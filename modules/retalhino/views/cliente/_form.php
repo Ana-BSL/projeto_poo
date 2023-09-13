@@ -14,15 +14,25 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nome')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'cpf')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'cpf')->textInput(['maxlength' => true, 'minlength' => 11, 'pattern' => '^[1-9]*$']) ?>
 
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'senha')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'senha')->textInput(['maxlength' => true, 'minlength' => 8]) ?>
 
-    <?= $form->field($model, 'sexo')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'sexo')->dropDownList([
+        'f' => 'Feminino',
+        'm' => 'Masculino',
+        'o' => 'Outros',
+        ]) ?>
 
-    <?= $form->field($model, 'reciclado')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'reciclado')->dropDownList([
+        'seda' => "Seda",
+        "linho" => "Linho",
+        "posliester" => "Posliester",
+        "viscose" => "Viscose",
+        "algodao" => "Algodão",
+        ]) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

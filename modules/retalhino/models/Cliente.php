@@ -2,7 +2,7 @@
 
 namespace app\modules\retalhino\models;
 
-
+use yii\helpers\ArrayHelper;
 use Yii;
 
 /**
@@ -90,6 +90,12 @@ class Cliente extends \yii\db\ActiveRecord
     public function getLoginStatuses()
     {
         return $this->hasMany(LoginStatus::class, ['id_cliente' => 'id_cliente']);
+    }
+
+    public static function getNome(){
+        $droptions = Cliente::find()->orderBy('nome')->all();
+        $array = ArrayHelper::map($droptions, 'id_cliente', 'nome');
+        return $array;
     }
 
 }

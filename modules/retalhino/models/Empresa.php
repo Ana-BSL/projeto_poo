@@ -2,7 +2,6 @@
 
 namespace app\modules\retalhino\models;
 
-use yii\helpers\ArrayHelper;
 use Yii;
 
 /**
@@ -108,9 +107,5 @@ class Empresa extends \yii\db\ActiveRecord
         return $this->hasMany(LoginStatus::class, ['id_empresa' => 'id_empresa']);
     }
 
-    public static function getNome(){
-        $droptions = Empresa::find()->orderBy('nome')->all();
-        $array = ArrayHelper::map($droptions, 'id_cliente', 'nome');
-        return $array;
-    }
+
 }

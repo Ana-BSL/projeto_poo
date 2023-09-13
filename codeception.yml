@@ -12,6 +12,11 @@ modules:
     config:
         Yii2:
             configFile: 'config/test.php'
+        Db:
+            dsn: 'pgsql:host=localhost;dbname=retalhino'
+            user: 'postgres'
+            password: 'nana4343'
+            charset: 'utf8'
 
 # To enable code coverage:
 #coverage:

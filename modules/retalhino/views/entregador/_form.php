@@ -14,17 +14,24 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nome')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'cpf')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'cpf')->textInput(['maxlength' => true, 'minlength' => 11, 'pattern' => '^[1-9]*$']) ?>
 
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'senha')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'senha')->textInput(['maxlength' => true, 'minlength' => 8]) ?>
 
-    <?= $form->field($model, 'sexo')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'sexo')->dropDownList([
+        'f' => 'Feminino',
+        'm' => 'Masculino',
+        'o' => 'Outros',
+        ]) ?>
 
     <?= $form->field($model, 'peso_maximo')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'veiculo')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'veiculo')->dropDownList([
+        'carro' => 'Carro',
+        'moto' => 'Moto',
+    ]) ?>
 
     <?= $form->field($model, 'placa')->textInput(['maxlength' => true]) ?>
 
